@@ -4,6 +4,10 @@ import streamlit as st
 from pathlib import Path
 from analysis_functions import *
 from functions import *
+from PIL import Image
+image = Image.open('./img/HowTo.jpg')
+
+
 
 
 #about project
@@ -35,6 +39,7 @@ def app():
         intro_markdown = read_markdown_file('./ABOUT.md')
         st.markdown(intro_markdown, unsafe_allow_html=True)
 
+    st.image(image, caption='How To Export A chat')
 
     uploaded_file = st.file_uploader("ارفع الملف النصي!", type=['txt'])
     if st.button("بدء التحليل"):
