@@ -5,7 +5,7 @@ from matplotlib import rc
 import re, os
 import pandas as pd
 import time as T
-import cv2, emoji
+import emoji
 from bidi.algorithm import get_display
 import arabic_reshaper
 import streamlit as st
