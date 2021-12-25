@@ -5,10 +5,16 @@
 
 ### About the project 
 
-TO DO 
+WhatsApp seems to become increasingly important not just as a messaging service but also as a social network—thanks to its group chat capabilities. Furthermore, retrieving chat logs from the Android or iOS app and it have been coverd in ``` HOW IT WORKS ```. This Application  will helps you to analyze your WhatsApp text completely and it will give various reports based on your Text. No private data will be stored here. With the power of streamlit is very straightforward.
+
+
 ### Technologies used
 
-TO DO 
+- Python 3
+  - Data processing and manipulation ([**Pandas**](https://pandas.pydata.org))
+  - Data Visualization ([**matplotlib**](https://matplotlib.org))
+  - web apps framework ([**Streamlit**](https://streamlit.io))  
+- App hosting ([**Heroku**](https://www.heroku.com/home)) 
 
 ### HOW IT WORKS
 
